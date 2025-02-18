@@ -83,9 +83,9 @@ font-weight: 700px;
     max-width: 1080px;
     margin: 0px auto;
    }
-/* features secton  */
 
 
+/* Quick list of Our Features */
 .feature-container {
     margin: 85px 0px 130px 0px;
     align-items: center;
@@ -103,7 +103,7 @@ font-weight: 700px;
 .feature-name{
     color: rgb(114, 114, 114);
 font-family: Work Sans;
-font-size: 45px;
+font-size: 2.8rem;
 font-weight: 700;
 
 }
@@ -116,7 +116,7 @@ font-weight: 700;
 .feature-description {
     color: rgb(114, 114, 114);
 font-family: Work Sans;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 
 }
@@ -148,3 +148,14 @@ font-weight: 400;
     }
     
    }
+   /* Quick list of Our Features */
+   .feature-container{
+    flex-direction: column;
+   }
+.feature-img {
+    grid-template-columns: repeat(1, 1fr);
+}
+.feature-content{
+    margin: 0px;
+    text-align: center;
+}
