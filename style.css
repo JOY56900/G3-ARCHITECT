@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+.bg-light {
+    background: rgba(255, 144, 14, 0.1);
+}
+.btn01 {
+padding: 20px 25px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 1.2rem;
+font-weight: 600;
+border-radius: 8px;
+
+background: rgb(255, 144, 14);
+border: none;
+
+}
+
+/* header style */
+
+
+
+/* navbar style */
+.name {
+color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 2.8rem;
+font-weight: 700;
+
+}
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    list-style: none;
+    margin-right: 30px;
+}
+.link {
+text-decoration: none;
+color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 1.1rem;
+font-weight: 500;
+
+}
+.navbar , .banner{
+max-width: 1080px;
+margin: 0px auto;
+}
+/* banner styles */
+.banner-content {
+    max-width: 860px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title {
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 4rem;
+font-weight: 700px;
+}
+.banner-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400px;
+   }
+
+   .img {
+    width: 100%;
+    
+   }
+
+
+
+   main {
+    max-width: 1080px;
+    margin: 0px auto;
+   }
+/* features secton  */
+
+
+.feature-container {
+    margin: 85px 0px 130px 0px;
+    align-items: center;
+}
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    gap: 24px;
+}
+.feature-content {
+    margin-left: 76px;
+    
+}
+.feature-name{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+
+}
+.l {
+   color:rgb(19, 19, 19);
+}
+.f {
+    color: rgb(255, 144, 14);
+}
+.feature-description {
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* media query section */
+   @media screen and (max-width:576px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-links {
+        flex-direction: column;
+        
+    }
+    .item {
+        margin-top: 10px;
+    }
+    
+   }
